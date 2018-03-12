@@ -1,0 +1,278 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+	line-height: 1.5;
+	margin: 0px;
+}
+
+.headerbar {
+	background-color: black;
+	padding: 15px 30px;
+	border-bottom: 5px solid #FFF653;
+}
+
+h1 {
+	color: #FFF653;
+	font-weight: 700;
+	font-family: Merriweather;
+	margin: 0;
+	font-size: 3.5em;
+
+}
+
+.strong_nav {
+	font-family: Oswald;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2.2em;
+
+}
+.normal_nav {
+	font-family: Source Sans Pro;
+	font-size: 2em;
+
+}
+
+li {
+	list-style: none;
+	display: inline;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: white;
+}
+.nav_bar a:visited {
+	color: white;
+}
+
+.nav_bar a:hover {
+	background-color: white;
+	color: black;
+	padding-bottom: 30px;
+}
+
+nav {
+	text-align: right;
+	padding: 10px;
+	
+}
+
+ul {
+	margin: 0;
+}
+
+.because {
+	background-color: #C6C6C6;
+	height: 90px;
+	text-align: center;
+	
+}
+
+h2 {
+	margin: 0;
+	padding-top: 15px;
+	font-family: Merriweather;
+	font-size: 2.5em;
+}
+span {
+	text-decoration: line-through;
+	color: #999999;
+}
+u {
+	text-decoration-color: #FFF653;
+
+}
+
+.heroimage { 
+	background: url("../images/coworking.jpg") no-repeat;
+	background-size: cover;
+	height: 750px;
+	padding: 45px;
+}
+
+.float {
+	position: relative;
+	float: right;
+	width: 40%;
+	border: 1px solid black;
+	height: 98%;
+	background-color: rgba(204, 208, 210, 0.8);
+	text-align: left;
+	padding: 45px;
+	font-family: Source Sans Pro;
+	font-size: 35px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.float_p {
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+.float_title {
+	font-family: Source Sans Pro;
+	font-weight: 900;
+	font-size: 45px;
+}
+.cta_create {
+	display: block;
+	text-align: center;
+	position: relative;
+	padding: 10px 60px;
+	background-color: #FFF653;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: Oswald;
+	color: rgb(0, 0, 0);
+	font-size: 45px;
+	box-shadow: 20px 20px 50px grey;
+	border-bottom: 4px solid rgb(191, 188, 29);
+
+}
+
+.column_3, .column_2, .column_1 {
+	float: left;
+	width: 33.33%;
+	padding: 30px 70px;
+}
+
+.cta_start_your_search, .cta_sign_up_now {
+	padding: 10px 50px;
+	background-color: #999999;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: Oswald;
+	color: #000000;
+	font-weight: 800;
+	box-shadow: 20px 20px 50px grey;
+}
+
+.column_1_p, .column_2_p, .column_3_p  {
+	font-family: Source Sans Pro;
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+
+.column_1_tittle, .column_2_tittle, .column_3_tittle {
+	font-weight: 700;
+	font-size: 2em;
+	font-family: Merriweather;
+}
+
+.footer {
+	clear: left;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 5px 50px;
+	font-size: 1.5em;
+	font-family: Source Sans Pro;
+}
+
+/**************************
+
+		Find Developers
+
+****************************/
+
+.maincontainer  {
+	background-color: rgb(198, 198, 198);
+	padding: 30px 20px 10px 35px;
+}
+
+.smallcontainer {
+	float: left;
+	width: 310px;
+	padding: 10px 13px;
+	margin: 15px;
+	background-color: white;
+}
+.hero, h3, h4 {
+	margin: 0;
+	font-family: Source Sans Pro;
+} 
+
+.some {
+	display: block;
+	font-size: 2em;
+	color: #000;
+}
+
+ h4 {
+ 	
+ 	float: left;
+	font-size: 1.4em;
+	background-color: rgb(102, 102, 102);
+	border-radius: 20px;
+	color: white;
+	padding: 2px 15px;
+	margin: 4px;
+
+}
+
+.contact {
+	font-family: Oswald;
+	display: block;
+	text-decoration: none;
+	color: black;
+	background-color: #FFF653;
+	border-bottom: 2px solid rgb(191, 188, 29);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 2em;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
